@@ -20,39 +20,6 @@ Este sistema facilita el control de inventario y operaciones comerciales mediant
 
 ---
 
-## Estructura del proyecto
-
-sisventas/
-│
-├── controlador/ # Controladores que manejan la lógica de negocio
-│ ├── UsuarioControlador.php
-│ ├── ProductoControlador.php
-│ └── VentaControlador.php
-│
-├── modelo/ # Modelos que interactúan con la base de datos
-│ ├── Usuario.php
-│ ├── Producto.php
-│ └── Venta.php
-│
-├── vista/ # Vistas divididas por entidad
-│ ├── usuario/
-│ ├── venta/
-│ └── layout/
-│
-├── includes/ # Archivos comunes como conexión a la base de datos
-│ └── db.php
-│
-├── login/ # Módulo de autenticación
-│ ├── login.php
-│ └── logout.php
-│
-├── sql/ # Base de datos
-│ └── sisventas.sql
-│
-└── README.md 
-
-
----
 
 ##  Funcionalidades principales
 
