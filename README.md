@@ -24,43 +24,32 @@ Este sistema facilita el control de inventario y operaciones comerciales mediant
 
 sisventas/
 │
-├── controlador/
-│ └── UsuarioControlador.php
-│ └── ProductoControlador.php
+├── controlador/ # Controladores que manejan la lógica de negocio
+│ ├── UsuarioControlador.php
+│ ├── ProductoControlador.php
 │ └── VentaControlador.php
 │
-├── modelo/
-│ └── Usuario.php
-│ └── Producto.php
+├── modelo/ # Modelos que interactúan con la base de datos
+│ ├── Usuario.php
+│ ├── Producto.php
 │ └── Venta.php
 │
-├── vista/
+├── vista/ # Vistas divididas por entidad
 │ ├── usuario/
-│ │ └── registrar.php
-│ │ └── editar.php
-│ │ └── listado.php
-│ │
 │ ├── venta/
-│ │ └── registrar.php
-│ │ └── listado.php
-│ │
 │ └── layout/
-│ └── header.php
-│ └── navbar.php
-│ └── footer.php
 │
-├── includes/
-│ └── db.php (Conexión a la base de datos)
+├── includes/ # Archivos comunes como conexión a la base de datos
+│ └── db.php
 │
-├── login/
-│ └── login.php
+├── login/ # Módulo de autenticación
+│ ├── login.php
 │ └── logout.php
 │
-├── sql/
-│ └── sisventas.sql (Base de datos del sistema)
+├── sql/ # Base de datos
+│ └── sisventas.sql
 │
-└── README.md
-
+└── README.md 
 
 
 ---
